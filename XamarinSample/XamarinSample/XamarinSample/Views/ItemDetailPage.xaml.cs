@@ -33,5 +33,10 @@ namespace XamarinSample.Views
             viewModel = new ItemDetailViewModel(item);
             BindingContext = viewModel;
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new NavigationPage(new Test());
+        }
     }
 }

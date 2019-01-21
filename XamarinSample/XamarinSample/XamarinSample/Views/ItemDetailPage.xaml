@@ -10,6 +10,6 @@
         <Label Text="Description:" FontSize="Medium" />
         <Label Text="{Binding Item.Description}" FontSize="Small"/>
           <dm:AutoSuggestBox WidthRequest="200"></dm:AutoSuggestBox>
-        <Button Text="Test" WidthRequest="200"></Button>
+        <Button Text="Test" WidthRequest="200" Clicked="Button_Clicked"></Button>
     </StackLayout>
 </ContentPage>
